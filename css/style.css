@@ -1,0 +1,86 @@
+body{
+    margin : 0;
+}
+
+.container{
+    background-image: url("../img/background.png");
+    background-size: cover;
+    height: 810px;
+    padding: 151px 15px 20px 15px ;
+}
+
+p{
+    font-size : 20px;
+}
+
+h2, p,.btn-info, .btn-info:hover{
+    color : white;
+}
+
+.btn-info{
+    background-color: #d33492;
+    border: none;
+    border-radius : 10px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 32px;
+}
+
+.btn-info:hover{
+    background-color: #ea45a4;
+}
+
+.far.fa-play-circle{
+    color: #ea4ca8;
+}
+
+#newGame{
+    color : blue;
+}
+
+#exampleModal{
+    display: none;
+}
+
+
+.modal-header .btn-close {
+    padding: .5rem .5rem;
+    position: fixed;
+    right: 35%;
+    top: 10%;
+}
+
+#imgWin{
+    max-width: 35%;
+    margin: auto;
+}
+
+.regles{
+    margin-top: 138px;
+}
+
+.swal2-html-container{
+    text-align: start;
+}
+
+.swal2-html-container p{
+    color: #595959;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .container {
+        background-image: url(../img/background.png);
+        background-size: cover;
+        height: 482px;
+        padding: 60px 50px 20px 50px;
+    }
+
+    #rollDice{
+        margin-left: -65px;
+    }
+
+    #hold{
+        margin-left: -33px;
+    }
+}
