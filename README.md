@@ -1,5 +1,5 @@
 # DiceGame
-Rules
+Rules :
 Each player has a temporary score (ROUND) and an overall score (GLOBAL).
 On each turn, the player has his ROUND initialized to 0 and can roll a dice as many times as he wishes. The result of a throw is added to the ROUND.
 During his turn, the player can decide at any time to:
